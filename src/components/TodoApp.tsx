@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TodoList, {Todos} from "./TodoList";
 // {}는 export한 요소들 가져옴
+// export default한 중괄호 없이 가져올 수 있음
 
 export default function Todo() {
   const [inputText, setInputText] = useState<string>("");
